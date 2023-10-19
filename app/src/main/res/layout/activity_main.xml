@@ -12,11 +12,15 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
+        android:background="#0091EA"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:title="Welcome to SportsPicker!"
         app:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
 
     <TextView
         android:id="@+id/textView"
@@ -25,89 +29,132 @@
         android:paddingLeft="10dp"
         android:text="Select your Favorite sport:"
         android:textColor="#FFFFFF"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+      />
+
 
     <RadioGroup
-        android:paddingLeft="10sp"
         android:id="@+id/sportsRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:foregroundTint="#0091EA"
+        android:orientation="vertical"
+        android:paddingLeft="10sp">
 
 
         <RadioButton
             android:id="@+id/basketballRadioButton"
+            style="@android:style/Widget.Material.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#F40101"
+            android:buttonTintMode="multiply"
             android:text="Hoop Shoot"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textColorHighlight="#C6D000FF"
             android:textColorHint="#FFF9F9"
+            android:textSize="20sp"
             app:useMaterialThemeColors="true" />
 
         <RadioButton
             android:id="@+id/tennisRadioButton"
+            style="@android:style/Widget.Material.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#F40101"
+            android:buttonTintMode="multiply"
             android:text="Racquet Science"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textColorHighlight="#C6D000FF"
             android:textColorHint="#FFF9F9"
+            android:textSize="20sp"
             app:useMaterialThemeColors="true" />
 
         <RadioButton
             android:id="@+id/footballRadioButton"
+            style="@android:style/Widget.Material.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#F40101"
+            android:buttonTintMode="multiply"
             android:text="Sports Ball"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textColorHighlight="#C6D000FF"
             android:textColorHint="#FFF9F9"
+            android:textSize="20sp"
             app:useMaterialThemeColors="true" />
 
         <RadioButton
             android:id="@+id/baseballRadioButton"
+            style="@android:style/Widget.Material.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#F40101"
             android:text="Fourth Base"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textColorHighlight="#C6D000FF"
             android:textColorHint="#FFF9F9"
-            app:useMaterialThemeColors="true" />
+            android:textSize="20sp"
+            app:useMaterialThemeColors="true"
+            android:buttonTintMode="multiply" />
 
         <RadioButton
             android:id="@+id/mmaRadioButton"
+            style="@android:style/Widget.Material.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#F40101"
+            android:buttonTintMode="multiply"
             android:text="Competitive Brawl"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textColorHighlight="#C6D000FF"
             android:textColorHint="#FFF9F9"
+            android:textSize="20sp"
             app:useMaterialThemeColors="true" />
 
         <RadioButton
             android:id="@+id/badmintonRadioButton"
+            style="@android:style/Widget.Material.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:buttonTint="#F40101"
+            android:buttonTintMode="multiply"
             android:text="Shuttle Launch"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textColorHighlight="#C6D000FF"
             android:textColorHint="#FFF9F9"
+            android:textSize="20sp"
             app:useMaterialThemeColors="true" />
 
     </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+  />
 
     <Button
         android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit"
-        android:layout_gravity="center"/>/>
+        android:layout_gravity="center"
+        android:backgroundTint="#0091EA"
+        android:text="Submit" />/>
 
 </LinearLayout>

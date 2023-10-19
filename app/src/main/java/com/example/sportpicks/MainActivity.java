@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void displayConfirmation(String sport) {
         // Display a confirmation dialog or activity with the chosen sport
-        Toast.makeText(MainActivity.this, "You chose " + sport, Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Your favorite sport is " +
+                "" + sport, Toast.LENGTH_SHORT).show();
     }
 }
